@@ -1,0 +1,63 @@
+.slider {
+    margin: 0 90px;
+}
+.card_size {
+    margin: 0 10px;
+    height: 330px;
+}
+.fruit_card {
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+.imge {
+    background-color: #F0F0F0;
+}
+.title {
+    font-size: 15px;
+    margin-top: -15px;
+}
+.fruit_desc {
+    display: flex;
+}
+.fruit_qty {
+    flex: 60%;
+    line-height: 18px;
+    font-size: 12px;
+}
+.fruit_qty > p {
+    margin-top: -10px;
+}
+.price {
+    margin-top: -15px;
+    color: orangered;
+}
+.marg {
+    margin-top: -15px;
+}
+.add_btn {
+    flex: 40%;
+}
+.add_btnn {
+    width: 70px;
+    border-radius: 20px;
+    border-color: greenyellow;
+    border-style: solid;
+    color: yellowgreen;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+.add_btnn:active {
+    border-style: none;
+    border-color: transparent;
+}
+.shop {
+    font-size: small;
+}
+.cut_price {
+    margin-left: 10px;
+    font-size: 11.5px;
+    text-decoration: line-through;
+    color: gray;
+}
